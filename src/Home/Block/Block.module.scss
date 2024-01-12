@@ -1,0 +1,56 @@
+.prMainCont {
+    max-width: 1274px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+    border: 3px solid #4B4B4B66;
+    background: #4B4B4B66;
+    backdrop-filter: blur(17px);
+    border-radius: 30px;
+    margin-bottom: 150px;
+
+    &_prCont {
+      display: flex;
+      flex-direction: column;
+      max-width: 585px;
+      gap: 35px;
+      padding: 64px 74px 64px 64px;
+      &_prHead {
+        font-size: 32px;
+        color: #fff;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 44px;
+      }
+      &_prDesc {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 26px;
+        color: #fff;
+
+      }
+      &_packagesBtn {
+        padding: 16px 37px;
+        border-radius: 70px;
+        background-color: #00c2cb;
+        border: 0px;
+        color: #fff;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 26px;
+      }
+    }
+    &_speechImg {
+      margin: 17px 17px 17px 0px;
+    }
+  }
+
+.prHead{
+    margin-top: 68px;
+    color: rgba(255,255,255,1);
+    font-style: normal;
+    font-weight: 700;
+    padding-left: 115px;
+}

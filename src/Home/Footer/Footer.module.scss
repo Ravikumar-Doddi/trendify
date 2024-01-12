@@ -1,0 +1,27 @@
+.footerCont{
+    background-color: rgba(75, 75, 75, 0.40);
+    padding: 54.5px 120px 88.5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &_desc{
+        max-width: 217px;
+        color: #FFF;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 26px;
+    }
+    &_text{
+        color: #FFF;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 26px; 
+        &_logo{
+            display: flex;
+            gap: 8px;
+            align-items: center;
+        }
+    }
+}

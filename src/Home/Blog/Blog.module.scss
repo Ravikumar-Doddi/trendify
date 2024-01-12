@@ -1,0 +1,68 @@
+.blogCont{
+    max-width: 1274px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 64px;
+    &_main{
+        display: flex;
+        gap: 32px;
+    }
+    &_head{
+        color: #FFF;
+        text-align: center;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 44px;
+    }
+    &_desc{
+        max-width: 903px;
+        margin-right: auto;
+        margin-left: auto;
+        color: #FFF;
+        text-align: center;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 26px;
+        
+    }
+    &_picCont{
+        max-width: 403px;
+        background-color: transparent;
+        border: 3px solid #4B4B4B66;
+        background: #4B4B4B66;
+        backdrop-filter: blur(17px);
+        border-radius: 30px;
+        margin-bottom: 64px;
+        margin-top: 64px;
+       &_descCont{
+        padding: 16px 16px 32px;
+        &_date{
+            color: #FFF;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            opacity: 0.3;
+        }
+        &_head{
+            color: #FFF;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 44px;
+        }
+        &_desc{
+            overflow: hidden;
+            color: #FFF;
+            text-overflow: ellipsis;
+            white-space: wrap;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 26px;
+        }
+       }
+    }
+}
